@@ -4,64 +4,52 @@
     <ul>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I setup Amazon Payments?</summary>
-          <p>You'll need to <a href="https://payments.amazon.com/sdui/sdui/accountstatus">create an Amazon Seller Central account</a>. Afterwards, get your access key and secret key from the "Integration" tab on your AWS account. <a href="https://payments.amazon.com/sdui/sdui/helpTab/Checkout-by-Amazon/Advanced-Integration-Help/Using-Your-Access-Key">Click here for more info</a>.
-          <br />
-          <br />
-          Once you have your access key and secret key, head over to <code>config/settings.yml</code>. Change <code>amazon_access_key</code> and <code>amazon_secret_key</code> appropriately.</p>
+          <summary class=''>What is Watt?</summary>
+          <p>Watt is a clean energy project funding platform. Everything from efficiency, electricity generations, heating, colling to transportation. </p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>Can I use another payments provider?</summary>
-          <p>Of course. We haven't built in support for other providers, but we recommend that you take a look at <a href="https://stripe.com">Stripe</a> or <a href="https://wepay.com">WePay</a>.</p>
+          <summary>How does Watt work?</summary>
+          <p>Each clean energy project is independently developed by the people behind it. They spend months and even years creating their projects. Every project creator sets their project's funding goal and deadline. If people like the project, they can pledge to invest money to make it happen. If the project succeeds in reaching its funding goal, all backers' are charged when time expires. If the project falls short, no one is charged. Funding on Watt is all-or-nothing.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I edit the FAQ?</summary>
-          <p>The faq is a partial located in <code>app/views/preorder/homepage/_faq.html.erb</code> The <code>summary</code> tag is the title, the <code>p</code> is the body. Make sure to add an <code>li</code> tag for each FAQ entry.</p>
+          <summary>Why is funding All-Or-Nothing?</summary>
+          <p>All-or-nothing funding is a core part of Watt and it has a number of advantages:<br><br>It's less risk for everyone. If you need $50,000, it's tough having $15,000 and a bunch of people expecting you to complete a $50,000 project.<br><br>It motivates. If people want to see a project come to life, they're going to spread the word.<br><br>Projects either make their goal or find little support. There's little in-between.</p>
         </details>
       </li>
       <li>
         <details class=''>
-          <summary>How do I change around the images, product name, etc?</summary>
-          <p>The best way is in <code>config/settings.yml</code>. It has variables for several different parts, the video, the product name, the call to action button ("Fork Now"), and several more.
-          </p>
+          <summary>What's the JOBS Act?</summary>
+          <p>We give everyone - regardless of wealth - the opportunity to invest in energy projects. Watt features the best new energy projects that are tackling important problems, and lets you help them with your time, advice, and investment.<br><br>Previously, only accredited investors could invest in energy projects. However, now that the JOBS Act has passed Congress, it will soon be legal for everyone.</p>
         </details>
       </li>
     </ul>
     <ul class='col2'>
       <li>
         <details class=''>
-          <summary>How do I change the CSS?</summary>
-          <p>Head over to <code>app/assets/stylesheets/variables.css.scss</code>. It makes it easy to change around the elements used throughout the HTML.
-          <br />
-          <br />
-          Alternatively, you can dive right into the CSS, have a look at <code>app/assets/stylesheets/main.css.scss</code>.</p>
+          <summary>Why do investors back projects?</summary>
+          <p>Backing a project is more than just investing or loaning money, it's supporting a project creator's dream to build something that they want to see exist in the world.</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary>Why did you release this?</summary>
-          <p>Hardware startups are less welcome on Kickstarter than they were 6 months ago. We needed to roll our own kickstarter, so we did. Other hardware startups probably will too, so we made it easier for them by open sourcing our way of doing it.</p>
+          <summary>How can I start a project?</summary>
+          <p>Click the green "Start Your Project" button on the start page. That will take you through the process of building your project. All projects must meet Watt's project guidelines and all creators must meet eligibility requirements.<br><br>Before jumping in, do some research. Read through Watt School for tips on how to structure your project. Talk to your friends about your ideas to see what they think. Look at other projects on Watt that are similar to yours. All of this work will pay off.</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary class=''>What software stack does this use?</summary>
-          <p>It's a Ruby on Rails app that makes heavy use of SCSS, Kickstarter's wonderful <code>amazon_flex_pay</code> gem, and a hint of CoffeeScript.</p>
+          <summary class=''>Who is eligible to start a Watt project?</summary>
+          <p>To be eligible to start a Watt project as a US creator, you need to meet the following requirements:<br><br>—You are 18 years of age or older.<br>—You are a permanent US resident with a Social Security Number (or EIN).<br>—You have a US address, US bank account, and US state-issued ID (driver’s license).<br>—You have a major US credit or debit card.</p>
         </details>
       </li>
       <li class=''>
         <details class=''>
-          <summary class=''>How do I deploy it?</summary>
-          <p>We recommend using Heroku. We include a Procfile for you, so all you need to do is:
-          <p>
-            <p>Install the <a href="https://toolbelt.heroku.com/">Heroku Toolbelt</a></p>
-            <p>Run <code>heroku create</code> in Selfstarter's folder</code></p>
-            <p>Run <code>git push heroku master</code> in Selfstarter's folder</p>
-          </p>
+          <summary class=''>How does the investing process work?</summary>
+          <p>After you’ve linked your bank account to your Watt funding account, simply visit the project listing and indicate the amount you wish to invest in the project’s Note. When your order is confirmed, the invested amount will be committed to that project and may no longer be withdrawn from your account or committed to other projects. Watt transfers the committed investment amount from your funding account when the Note is fully-funded and issued.<br><br>Alternatively, you may indicate your intent to invest in a project without linking your bank account to your funding account. However, your commitment will only become binding once your account has sufficient funds. While your investment is on hold, Watt may reduce your investment size in order to meet demand from other investors.</p>
         </details>
       </li>
     </ul>
